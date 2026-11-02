@@ -1,0 +1,28 @@
+
+# Core scientific computing
+numpy==2.4.6
+pandas==3.1.0
+scipy==1.17.1
+
+# Machine learning
+scikit-learn==1.9.1
+
+# Deep learning (CPU version)
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.15.0+cpu
+
+# Federated learning and privacy
+flwr==1.42.0
+opacus==1.6.0
+
+# Dashboard and visualization
+streamlit==1.66.1
+matplotlib==3.11.2
+seaborn==0.13.2
+
+# Configuration
+PyYAML==6.0.3
+python-dotenv==1.2.4
+
+# Testing
+pytest
