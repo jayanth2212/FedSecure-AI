@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Datasets - do not upload datasets to Git
+data/raw/*
+data/interim/*
+data/processed/*
+data/partitions/*
+
+# Keep dataset folder structure
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+!data/partitions/*/.gitkeep
+
+# Model artifacts
+artifacts/models/*
+artifacts/checkpoints/*
+artifacts/scalers/
+
+# Logs and experiment outputs
+logs/
+results/experiment_logs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
